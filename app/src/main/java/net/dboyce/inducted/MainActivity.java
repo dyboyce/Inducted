@@ -16,6 +16,7 @@ public class MainActivity extends Activity {
 
     @Override
     protected  void onStart() {
+        super.onStart();
         System.out.print("onStart called.");
         //placeholder for onstart mechanics
 
